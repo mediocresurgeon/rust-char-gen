@@ -60,7 +60,7 @@ struct StackingTracker {
 
 impl StackingTracker {
 	fn new() -> StackingTracker {
-		StackingTracker{
+		StackingTracker {
 			tracker: Vec::new()
 		}
 	}

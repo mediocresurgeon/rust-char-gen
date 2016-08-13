@@ -1,9 +1,9 @@
 mod bonuses;
+mod characters;
 
 pub mod chargen {
-	use bonuses;
-
 	pub fn do_something() {
+		use bonuses;
 		let mut bt = bonuses::EnhancementBonus::new();
 		println!("Hello, world!");
 	}
