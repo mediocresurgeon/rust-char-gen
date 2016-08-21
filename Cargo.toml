@@ -1,5 +1,5 @@
 [package]
 
-name = "chargen"
+name = "pathfinder"
 version = "0.0.1"
 authors = [ "Cameron Lind <mediocresurgeon@gmail.com>" ]

@@ -1,10 +1,14 @@
-mod bonuses;
-mod characters;
+pub mod bonuses;
+pub mod characters;
+pub mod ability_scores;
 
-pub mod chargen {
-	pub fn do_something() {
-		use bonuses;
-		let mut bt = bonuses::EnhancementBonus::new();
-		println!("Hello, world!");
+
+pub mod character_creator {
+	use bonuses;
+	use characters;
+
+	/// Builds and returns a character.
+	pub fn return_something() -> Box<characters::Character> {
+		return Box::new(characters::Humanoid::new());
 	}
 }
